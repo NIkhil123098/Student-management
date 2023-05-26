@@ -2,13 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
-# Home Dashboard Student List ( delete )
+# Home Dashboard Student List ( View or delete Student )
 ![image](https://github.com/NIkhil123098/Student-management/assets/61054037/a45d7993-e399-423a-ae2a-748ad6a00e77)
 
-# Student grade sheet , attendance status (Update)
+# Student grade sheet , attendance status ( Update Student )
 ![image](https://github.com/NIkhil123098/Student-management/assets/61054037/ec779ede-9627-4625-9a0a-01c35c3337ba)
 
-# New Student Entry ( Add )
+# New Student Entry ( Add Student)
 ![image](https://github.com/NIkhil123098/Student-management/assets/61054037/86364b40-cbc0-49e3-9bbb-58780b47c6c4)
 
 
