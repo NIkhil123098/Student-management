@@ -1,0 +1,24 @@
+<p *ngFor="let user of users;index as i">{{user}},{{i}}</p>
+<h3 *ngFor="let s of students">
+    {{s.name}}, {{s.id}} ,  {{s.location}}
+</h3>
+
+<a href="www.google.com">
+    {{fromParent}}
+</a>
+
+<button (click)="fun1()">
+    Click here
+</button>
+
+<ng-template #d1>
+Iam nikhil
+</ng-template>
+
+<ng-template #d2>
+    Iam not nikhil
+    </ng-template>
+
+    <ol *ngFor="let s of students">
+        <li><a routerLink="/students/{{s.id}}">{{s.id}}</a> {{s.name}}</li>
+    </ol>

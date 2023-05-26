@@ -1,0 +1,57 @@
+<div class="card" style="width:50%;position:absolute;left:25%">
+    <div class="card-header">
+      Student Details Form
+    </div>
+    <div class="card-body" style="width:50%">
+      <h5 class="card-title">Add new Student</h5>
+      
+      <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+        <label>Name</label>
+        <input type="text"  class="form-control" placeholder="Enter Student Name" formControlName="name">
+        <br>
+        <label>Roll no</label>
+    <input type="number" placeholder="Enter Student roll no" class="form-control" formControlName="id">
+    <br>
+    <label>Degree : </label>
+
+
+    <select class="form-select" formControlName="degree" aria-label="Default select example">
+        <option value="B.Tech" selected>B.Tech</option>
+        <option value="B.E">B.E</option>
+        <option value="Diploma">Diploma</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="Ph.D">Ph.D</option>
+        <option value="PG">PG</option>
+        <option value="Others">Others</option>
+        
+      </select>
+
+
+      <br>
+        <label>Course</label>
+    <input type="text" placeholder="Course assigned to student" class="form-control" formControlName="course">
+    
+    <br>
+
+    <label>Native Location</label>
+    <input type="text" placeholder="Enter student base Location" class="form-control" formControlName="loc">
+    
+    <br>
+
+    <span>Present Hours :     </span>
+    <input type="number" class="form-control" formControlName="present" maxlength="3" minlength="1">
+    
+    <br>
+
+    <span>Absent Hours :     </span>
+    <input type="number" class="form-control" formControlName="absent" maxlength="3" minlength="1">
+    
+    
+
+
+      <br>
+    <input type="submit" class="btn btn-primary" value="Add Student" style="background-color:greenyellow;color:black;">
+    
+    </form>
+    </div>
+  </div>
